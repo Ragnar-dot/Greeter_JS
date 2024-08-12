@@ -1,0 +1,60 @@
+div {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 5px;
+    background-color: rgba(44, 46, 46, 0.103);
+    box-shadow: 10px, 20px, 35px rgba(0, 0, 0, 0.568);
+    border-radius: 9px;
+    border-color: rgba(0, 0, 0, 0.308);
+    position: relative;
+    z-index: 2;
+}
+
+button:hover {
+    background-color: #00c52b;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    border-color: black;
+    position: relative;
+    z-index: 2;
+}
+
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+video {
+    object-fit: cover;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 170vh;
+    width: 100vw;
+    z-index: 1;
+    opacity: 100%;
+}
+
+
+
