@@ -4,10 +4,11 @@ div {
     padding: 5px;
     background-color: rgba(44, 46, 46, 0.103);
     box-shadow: 10px, 20px, 35px rgba(0, 0, 0, 0.568);
-    border-radius: 9px;
+    border-radius: 10px;
     border-color: rgba(0, 0, 0, 0.308);
     position: relative;
     z-index: 2;
+
 }
 
 button:hover {
@@ -18,17 +19,17 @@ button {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     background-color: #28a745;
-    color: white;
-    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
     cursor: pointer;
 }
 
 h1 {
     max-width: 400px;
     margin: 50px auto;
-    padding: 40px;
+    padding: 50px;
     border-color: black;
     position: relative;
     z-index: 2;
@@ -37,10 +38,10 @@ h1 {
 
 input, select {
     width: calc(100% - 20px);
-    padding: 10px;
+    padding: 8px;
     margin: 5px 0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    border: 1px solid #030303;
+    border-radius: 10px;
 }
 
 
@@ -55,6 +56,8 @@ video {
     z-index: 1;
     opacity: 100%;
 }
+
+
 
 
 
