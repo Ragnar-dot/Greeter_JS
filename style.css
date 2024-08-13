@@ -2,15 +2,37 @@ div {
     max-width: 400px;
     margin: 50px auto;
     padding: 5px;
-    background-color: rgba(44, 46, 46, 0.103);
+    background-color: rgba(244, 248, 248, 0.37);
     box-shadow: 10px, 20px, 35px rgba(0, 0, 0, 0.568);
     border-radius: 10px;
-    border-color: rgba(0, 0, 0, 0.308);
+    border-color: rgba(0, 0, 0, 0);
     position: relative;
     z-index: 2;
+    font-family: monospace;
+    
+    
 
 }
 
+ .result {
+    font-family: monospace;
+    overflow: hidden;
+    height:1.1em;
+    word-wrap: break-word;
+    white-space: nowrap;
+    animation: typing 4s steps(35) forwards;
+    background-color: aliceblue;
+    font-size: 17px;
+   
+  } 
+  
+
+
+
+
+
+
+ 
 button:hover {
     background-color: #00c52b;
 }
@@ -24,16 +46,36 @@ button {
     color: rgb(255, 255, 255);
     font-size: 25px;
     cursor: pointer;
+    font-family: monospace;
 }
 
 h1 {
     max-width: 400px;
+    font-size: 70px;
     margin: 50px auto;
     padding: 50px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.144);
     position: relative;
     z-index: 2;
+    font-family: monospace;
+    animation: colorChange 5s infinite; /* Animation name, duration, and repeat */
 }
+
+@keyframes colorChange {
+    2% {
+        color: rgba(255, 255, 255, 0.37);
+    }
+    50% {
+        color: rgb(247, 151, 6);
+    }
+    100% {
+        color: rgba(0, 0, 0, 0.575);
+   }
+    50% {
+        color: rgba(255, 231, 17, 0.555);
+   
+    }
+        }
 
 
 input, select {
