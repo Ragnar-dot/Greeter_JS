@@ -37,7 +37,7 @@ function typeEffect(text, elementId) {
         }
     })();
 }
-
+o
 
     
 
